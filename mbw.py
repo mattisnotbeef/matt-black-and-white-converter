@@ -27,7 +27,8 @@ def bwer_copy():
 #program home
 while True:
     prompt = int(input('Welcome to matts black and white converter. Please choose one of the following to get started:\n1 to convert jpg(s)\n2to convert png(s)\n3 to convert ORF(s)\n4 to convert CR2(s)\n0 to quit'))
-    
+
+    #quit program
     if prompt == 0:
         print('Goodbye')
         break
