@@ -1,3 +1,5 @@
+#note - update program to ignore files already converted
+
 from PIL import Image
 from PIL import ImageFilter
 import os
